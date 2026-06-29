@@ -1,0 +1,26 @@
+# .gitignore for initial-server-setup
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Secrets and sensitive files - NEVER commit these
+*.pem
+*.key
+*.crt
+id_rsa
+id_ed25519
+*.env
+secrets/
+
+# Log files
+*.log
